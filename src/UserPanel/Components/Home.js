@@ -113,7 +113,7 @@ export default function HomePage() {
                         <div class="mt-4 flex items-start justify-between">
                             <div class="">
                                 <h3 class="text-xs font-semibold sm:text-sm md:text-base">
-                                    <a href="#" title="" class="">
+                                    <a title="" class="">
                                         Arabian Musk
                                         <span class="absolute" aria-hidden="true"></span>
                                     </a>
@@ -151,7 +151,7 @@ export default function HomePage() {
                         <div class="mt-4 flex items-start justify-between">
                             <div class="">
                                 <h3 class="text-xs font-semibold sm:text-sm md:text-base">
-                                    <a href="#" title="" class="">
+                                    <a title="" class="">
                                         Albanian Essence
                                         <span class="absolute" aria-hidden="true"></span>
                                     </a>
@@ -187,7 +187,7 @@ export default function HomePage() {
                         <div class="mt-4 flex items-start justify-between">
                             <div class="">
                                 <h3 class="text-xs font-semibold sm:text-sm md:text-base">
-                                    <a href="#" title="" class="">
+                                    <a title="" class="">
                                         Siberian Perfum
                                         <span class="absolute" aria-hidden="true"></span>
                                     </a>
@@ -224,7 +224,7 @@ export default function HomePage() {
                         <div class="mt-4 flex items-start justify-between">
                             <div class="">
                                 <h3 class="text-xs font-semibold sm:text-sm md:text-base">
-                                    <a href="#" title="" class="">
+                                    <a title="" class="">
                                         Siberian Perfum
                                         <span class="absolute" aria-hidden="true"></span>
                                     </a>
@@ -293,10 +293,10 @@ export default function HomePage() {
                         <div class="mt-4 mb-2 font-medium xl:mb-4">Guides</div>
                         <nav aria-label="Guides Navigation" class="text-gray-500">
                             <ul class="space-y-3">
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">How to make a footer</a></li>
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Designing your app</a></li>
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Getting help from the community</a></li>
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Pricing vs Hourly Rate</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >How to make a footer</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Designing your app</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Getting help from the community</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Pricing vs Hourly Rate</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -304,11 +304,11 @@ export default function HomePage() {
                         <div class="mt-4 mb-2 font-medium xl:mb-4">Links</div>
                         <nav aria-label="Footer Navigation" class="text-gray-500">
                             <ul class="space-y-3">
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Pricing</a></li>
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Demo</a></li>
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Press</a></li>
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Support Hub</a></li>
-                                <li><a class="hover:text-blue-600 hover:underline" href="#">Contact</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Pricing</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Demo</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Press</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Support Hub</a></li>
+                                <li><a class="hover:text-blue-600 hover:underline" >Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -326,9 +326,9 @@ export default function HomePage() {
                         <p class="">© 2022 Boleno | All Rights Reserved</p>
                         <p class="-order-1 sm:order-none">Made with ❤️ Remotely</p>
                         <p class="">
-                            <a class="" href="#">Privacy Policy</a>
+                            <a class="" >Privacy Policy</a>
                             <span>|</span>
-                            <a class="" href="#">Terms of Service</a>
+                            <a class="">Terms of Service</a>
                         </p>
                     </div>
                 </div>
