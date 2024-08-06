@@ -9,7 +9,7 @@ export const getUserData = () => {
 
 const Login = () => {
     const loginWithGoogle = () => {
-        window.open("http://localhost:5000/auth/google", "_self");
+        window.open("https://full-ecombackend.onrender.com/auth/google", "_self");
     };
     
 
@@ -17,7 +17,7 @@ const Login = () => {
         // Fetch user data after redirect from Google
         const fetchUserData = async () => {
             try {
-                const response = await fetch("http://localhost:5000/login/success", {
+                const response = await fetch("https://full-ecombackend.onrender.com/login/success", {
                     credentials: "include"
                 });
                 if (response.status === 200) {
