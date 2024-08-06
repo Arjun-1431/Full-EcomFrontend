@@ -34,7 +34,7 @@ export default function Checkout() {
         }
 
         try {
-            const res = await fetch(`http://localhost:5000/api/payment/order`, {
+            const res = await fetch(`https://full-ecombackend.onrender.com/api/payment/order`, {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"
@@ -63,7 +63,7 @@ export default function Checkout() {
             handler: async (response) => {
                 console.log("response", response)
                 try {
-                    const res = await fetch(`http://localhost:5000/api/payment/verify`, {
+                    const res = await fetch(`https://full-ecombackend.onrender.com/api/payment/verify`, {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'
