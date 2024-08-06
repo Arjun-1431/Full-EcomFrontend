@@ -64,7 +64,7 @@ export default function Register() {
                     icon: "error",
                     title: "Oops...",
                     text: "Something went wrong!",
-                    footer: '<a href="#">Why do I have this issue?</a>'
+                    footer: '<a>Why do I have this issue?</a>'
                   });
             }
             
@@ -75,7 +75,7 @@ export default function Register() {
                 icon: "error",
                 title: "Oops...",
                 text: "Something went wrong!",
-                footer: '<a href="#">Why do I have this issue?</a>'
+                footer: '<a>Why do I have this issue?</a>'
               });
         }
     };
@@ -91,18 +91,18 @@ export default function Register() {
                             <span className="mx-auto block w-56 whitespace-nowrap rounded-lg bg-orange-400 py-2 text-white">drag and drop</span>
                         </p>
                         <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
-                        <a href="#" className="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</a>
+                        <a  className="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</a>
                     </div>
                 </div>
                 <div className="flex w-full flex-col md:w-1/2">
                     <div className="flex justify-center pt-12 md:justify-start md:pl-12">
-                        <a href="#" className="text-2xl font-bold text-blue-600"> Wobble . </a>
+                        <a  className="text-2xl font-bold text-blue-600"> Wobble . </a>
                     </div>
                     <div className="my-auto mx-auto flex flex-col justify-center px-6 pt-8 md:justify-start lg:w-[28rem]">
                         <p className="text-center text-3xl font-bold md:text-left md:leading-tight">Create your free account</p>
                         <p className="mt-6 text-center font-medium md:text-left">
                             Already using wobble?
-                            <a href="#" className="whitespace-nowrap font-semibold text-blue-700">Login here</a>
+                            <a  className="whitespace-nowrap font-semibold text-blue-700">Login here</a>
                         </p>
                         <button onClick={loginWithGoogle} className="-2 mt-8 flex items-center justify-center rounded-md border px-4 py-1 outline-none ring-gray-400 ring-offset-2 transition focus:ring-2 hover:border-transparent hover:bg-black hover:text-white">
                             <img className="mr-2 h-5" src="https://static.cdnlogo.com/logos/g/35/google-icon.svg" alt="Google Icon" /> sign up with Google
@@ -157,7 +157,7 @@ export default function Register() {
 
                             <div className="block mt-4">
                                 <input className="mr-2 h-5 w-5 appearance-none rounded border border-gray-300 bg-contain bg-no-repeat align-top text-black shadow checked:bg-blue-600 focus:border-blue-600 focus:shadow" type="checkbox" id="remember-me" name="isAdmin" checked={formData.isAdmin} onChange={handleChange} />
-                                <label className="inline-block" htmlFor="remember-me"> I agree to the <a className="underline" href="#">Terms and Conditions</a></label>
+                                <label className="inline-block" htmlFor="remember-me"> I agree to the <a className="underline">Terms and Conditions</a></label>
                             </div>
                             <button type="submit" className="mt-6 rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button>
                         </form>
