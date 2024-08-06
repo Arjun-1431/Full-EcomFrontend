@@ -13,7 +13,7 @@ export default function Register() {
     });
 
     const loginWithGoogle = () => {
-        window.open("http://localhost:5000/auth/google", "_self");
+        window.open("https://full-ecombackend.onrender.com/auth/google", "_self");
     };
 
     const handleImageUpload = (event) => {
@@ -44,7 +44,7 @@ export default function Register() {
         }
 
         try {
-            const response = await fetch("http://localhost:5000/register", {
+            const response = await fetch("https://full-ecombackend.onrender.com/register", {
                 method: "POST",
                 body: data
             });
