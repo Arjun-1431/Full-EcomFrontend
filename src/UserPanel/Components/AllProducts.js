@@ -85,12 +85,12 @@ export default function AllProducts() {
             <div class="flex flex-row items-center">
                 {products.map(product => (
                     <div key={product.id} class="relative m-6 w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-md">
-                        <a href="#">
+                        <a>
                             <img class="h-60 rounded-t-lg object-cover" src={product.image} alt="product image" />
                         </a>
                         <span class="absolute top-0 left-0 w-28 translate-y-4 -translate-x-6 -rotate-45 bg-black text-center text-sm text-white">Sale</span>
                         <div class="mt-4 px-5 pb-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="text-xl font-semibold tracking-tight text-slate-900">{product.name}</h5>
                             </a>
                             <div class="mt-2.5 mb-5 flex items-center">
